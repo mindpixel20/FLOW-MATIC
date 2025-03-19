@@ -346,8 +346,6 @@ class FlowmaticInterpreter:
             return self.multiply(command)
         elif command_type == "DIVIDE":
             return self.divide(command)
-        elif command_type == "X-1":
-            return self.x1_handler(command)
         elif command_type == "IF":
             return self.process_conditional(command)
         # This is the important part: ignore "OTHERWISE" as it should be
