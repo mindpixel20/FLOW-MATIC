@@ -32,3 +32,5 @@ This is a simple python interpreter for the historic [FLOW-MATIC](https://en.wik
 Most of the language defintion and functions used were gleaned from [here](http://www.bitsavers.org/pdf/univac/flow-matic/U1518_FLOW-MATIC_Programming_System_1958.pdf) - It's quite a fascinating read! 
 
 Take a look at the reference file in this repo if you'd like to run the interpreter. Warning: ancient programming techniques lie ahead! 
+
+What's currently missing is UNISERVO tape emulation, data definitions, and X-1 coding; And a few operations like ADD, SUBTRACT, MULTIPLY, and DIVIDE were added that were not mentioned in the manual. Perhaps this is the world's first "dialect" of FLOW-MATIC? 
